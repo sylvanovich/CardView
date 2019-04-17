@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E93516BC4D25D29224FC29329DEE77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9EBFBFA68E657C1FF8D7F12BAA86F /* Foundation.framework */; };
+		29AFFD8D80D2915FB2FCE034BDBC4017 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B3B4A0685ED9E0D83D52F7A863810 /* Player.swift */; };
+		44E5D28B66A532FBA2FA1B513ACA253D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312387CA35FCA2317B86758DA1CA775 /* DetailViewController.swift */; };
+		4742C9466A437CC4D32BF043B0C93BD5 /* Cards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FAE2AAC4F714CD96F1320389248289 /* Cards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808347BD17634977503F7A037BBAB731 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2195D6296DFDD3FD05168ABE188DE0E1 /* UIKit.framework */; };
+		8473235FA563CF420AC22DFBFF994B09 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2D8B67565DFF481C4D57C6DBA563D /* Card.swift */; };
+		955090DAF9D1D480786BB44C24D972A9 /* Pods-TestCustomCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F18F66AA8B87F4DC3A9546C91244A647 /* Pods-TestCustomCardView-dummy.m */; };
+		A475C5173673607D727BF2F1FE534324 /* Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888A22707BCE5388A4F9ECDB6DCFBA43 /* Player.framework */; };
+		AB8D2FFC86BBCB950A02C865F753462E /* CardPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86E7780655BA438AD09E68D4AAFD055 /* CardPlayer.swift */; };
+		BE2EB16B1068D762691F3C1CFEEB404E /* Player-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2124697FC7E884E44A2BC600B8A6E7BD /* Player-dummy.m */; };
+		BE3B6C7BA9EF689AE1CA401D7393C8E4 /* LayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FF7B27521D70074DAEFC46A4BA7784 /* LayoutHelper.swift */; };
+		C92397B8B949B7BFE677EA98EEF7A18F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9EBFBFA68E657C1FF8D7F12BAA86F /* Foundation.framework */; };
+		CBA8CAD8278111DEEF0F79E27FEBD0E5 /* CardGroupSliding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63FF85951DC51DC32A9C9A4C9547BBF /* CardGroupSliding.swift */; };
+		CE474AC61618E6D995525AC4F8020F97 /* CardGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B3FEB0B5BC7455E32F1F86A4E1F32E /* CardGroup.swift */; };
+		D6FD3793CB1BFD2CF8367F07F6D9DD7E /* CardArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB963CE724D37E07387A5621EB933BE /* CardArticle.swift */; };
+		D7FED3C440C4BEFAF494615437508378 /* Cards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A1F1F2553F52FEEFB9DEEB222652E8 /* Cards-dummy.m */; };
+		D877F62D9E77D4A2B49EA51CC3BF5DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9EBFBFA68E657C1FF8D7F12BAA86F /* Foundation.framework */; };
+		DB9EBEEB26879E6571326D55278B4323 /* CardHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BD6DB32050E38EB8B191877F20ABE1 /* CardHighlight.swift */; };
+		E4926F1604200AFD0B54973197F23ABC /* Pods-TestCustomCardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95713C6FFAAA63F3E592508B2F1DCB34 /* Pods-TestCustomCardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D190F997FAFD860FBF6A93D7D54472 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D631DE465BD868F5247131A1E37298F /* Animator.swift */; };
+		FF3E7FBBC59C89D5D7245B37E13C0BD3 /* Player-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C80936A985B2E3EB0C157EA112A7B3A7 /* Player-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172749650CD73556FF72442A3475ADE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3923DC7A4B6CE5EDEC78EA08D4D86D95;
+			remoteInfo = Player;
+		};
+		3125F16366527EE9C4CE2623C06B0C3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3923DC7A4B6CE5EDEC78EA08D4D86D95;
+			remoteInfo = Player;
+		};
+		4481E3BB3EFE7FC542F9CF42ECE87C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CABD44290567B7416F6FC834D27D94C;
+			remoteInfo = Cards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FAE2AAC4F714CD96F1320389248289 /* Cards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cards-umbrella.h"; sourceTree = "<group>"; };
+		049AAB317BE8C761A3502938CE19C4EA /* Player-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Player-Info.plist"; sourceTree = "<group>"; };
+		06FF7B27521D70074DAEFC46A4BA7784 /* LayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutHelper.swift; path = Cards/Sources/LayoutHelper.swift; sourceTree = "<group>"; };
+		0C4BE6A0DD0236E94F71FF19940337CE /* Cards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cards.modulemap; sourceTree = "<group>"; };
+		12A1F1F2553F52FEEFB9DEEB222652E8 /* Cards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cards-dummy.m"; sourceTree = "<group>"; };
+		1D631DE465BD868F5247131A1E37298F /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Cards/Sources/Animator.swift; sourceTree = "<group>"; };
+		2124697FC7E884E44A2BC600B8A6E7BD /* Player-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Player-dummy.m"; sourceTree = "<group>"; };
+		2195D6296DFDD3FD05168ABE188DE0E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DA46EBECA112672E32B6027268AB903 /* Pods-TestCustomCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCustomCardView.debug.xcconfig"; sourceTree = "<group>"; };
+		304F5BA299860FF5F8C4BBE4DD176519 /* Player-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Player-prefix.pch"; sourceTree = "<group>"; };
+		35B09F580415305735D112EEA2F0C689 /* Cards-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cards-prefix.pch"; sourceTree = "<group>"; };
+		533363A2F6D1A76102E775FA8D3BB684 /* Cards.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cards.xcconfig; sourceTree = "<group>"; };
+		539120C331134731D8CA90DEDA72F34A /* Pods-TestCustomCardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestCustomCardView.modulemap"; sourceTree = "<group>"; };
+		5ABCFFCD2A0707DF18C2AD6B5F84ACF9 /* Cards-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cards-Info.plist"; sourceTree = "<group>"; };
+		699594C1E00C5854D2538CB247F6978D /* Pods_TestCustomCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestCustomCardView.framework; path = "Pods-TestCustomCardView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFC0DF8D3172BDA53EFA639B4E6606E /* Pods-TestCustomCardView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestCustomCardView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DB2D8B67565DFF481C4D57C6DBA563D /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Cards/Sources/Card.swift; sourceTree = "<group>"; };
+		888A22707BCE5388A4F9ECDB6DCFBA43 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BD6DB32050E38EB8B191877F20ABE1 /* CardHighlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardHighlight.swift; path = Cards/Sources/CardHighlight.swift; sourceTree = "<group>"; };
+		8A841B8F020512BCD7D41B1B030487D8 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Player.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCB4EFE06B1B76D2CA742F520C2FBA2 /* Player.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Player.xcconfig; sourceTree = "<group>"; };
+		92D9EBFBFA68E657C1FF8D7F12BAA86F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		95713C6FFAAA63F3E592508B2F1DCB34 /* Pods-TestCustomCardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestCustomCardView-umbrella.h"; sourceTree = "<group>"; };
+		9CB963CE724D37E07387A5621EB933BE /* CardArticle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardArticle.swift; path = Cards/Sources/CardArticle.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EE8F908F1678D7E331DF819BAA6BCEE /* Cards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cards.framework; path = Cards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64B3B4A0685ED9E0D83D52F7A863810 /* Player.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Sources/Player.swift; sourceTree = "<group>"; };
+		A8238D554BD174A995AF2D26A67698FE /* Pods-TestCustomCardView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestCustomCardView-frameworks.sh"; sourceTree = "<group>"; };
+		B5C75745690E23CEBE67857F977479F1 /* Player.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Player.modulemap; sourceTree = "<group>"; };
+		BE7AACA1B8C813B084B4CCD9F2734C23 /* Pods-TestCustomCardView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCustomCardView-acknowledgements.plist"; sourceTree = "<group>"; };
+		C80936A985B2E3EB0C157EA112A7B3A7 /* Player-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Player-umbrella.h"; sourceTree = "<group>"; };
+		D32085F83B9EF57864871323E7D9E86D /* Pods-TestCustomCardView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestCustomCardView-Info.plist"; sourceTree = "<group>"; };
+		D8B3FEB0B5BC7455E32F1F86A4E1F32E /* CardGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardGroup.swift; path = Cards/Sources/CardGroup.swift; sourceTree = "<group>"; };
+		E312387CA35FCA2317B86758DA1CA775 /* DetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Cards/Sources/DetailViewController.swift; sourceTree = "<group>"; };
+		E86E7780655BA438AD09E68D4AAFD055 /* CardPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardPlayer.swift; path = Cards/Sources/CardPlayer.swift; sourceTree = "<group>"; };
+		F18F66AA8B87F4DC3A9546C91244A647 /* Pods-TestCustomCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestCustomCardView-dummy.m"; sourceTree = "<group>"; };
+		F45A10CB9DED8A911C8FF2213A6A566C /* Pods-TestCustomCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestCustomCardView.release.xcconfig"; sourceTree = "<group>"; };
+		F63FF85951DC51DC32A9C9A4C9547BBF /* CardGroupSliding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardGroupSliding.swift; path = Cards/Sources/CardGroupSliding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C17A8234ADEE868769C9067B85CEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E93516BC4D25D29224FC29329DEE77 /* Foundation.framework in Frameworks */,
+				A475C5173673607D727BF2F1FE534324 /* Player.framework in Frameworks */,
+				808347BD17634977503F7A037BBAB731 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39E7F7AC08C9E2543C53AD0BD63BA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D877F62D9E77D4A2B49EA51CC3BF5DED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DE3F1410323DE5484CD218DFBF96AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92397B8B949B7BFE677EA98EEF7A18F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2D6C1DD0C2C8161E8FA66348721801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888A22707BCE5388A4F9ECDB6DCFBA43 /* Player.framework */,
+				BCECE2990F0C1EFFADDF37B96A5BAC4D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63B97389DD6648227F303314C15A21B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C4BE6A0DD0236E94F71FF19940337CE /* Cards.modulemap */,
+				533363A2F6D1A76102E775FA8D3BB684 /* Cards.xcconfig */,
+				12A1F1F2553F52FEEFB9DEEB222652E8 /* Cards-dummy.m */,
+				5ABCFFCD2A0707DF18C2AD6B5F84ACF9 /* Cards-Info.plist */,
+				35B09F580415305735D112EEA2F0C689 /* Cards-prefix.pch */,
+				00FAE2AAC4F714CD96F1320389248289 /* Cards-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cards";
+			sourceTree = "<group>";
+		};
+		707D591EE56AB86E105F58ABD375664B /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				A64B3B4A0685ED9E0D83D52F7A863810 /* Player.swift */,
+				C5A56E68A1938B1765777414036A2869 /* Support Files */,
+			);
+			name = Player;
+			path = Player;
+			sourceTree = "<group>";
+		};
+		86C4FB8F67C5212A9CF67D598BCA1830 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				1D631DE465BD868F5247131A1E37298F /* Animator.swift */,
+				7DB2D8B67565DFF481C4D57C6DBA563D /* Card.swift */,
+				9CB963CE724D37E07387A5621EB933BE /* CardArticle.swift */,
+				D8B3FEB0B5BC7455E32F1F86A4E1F32E /* CardGroup.swift */,
+				F63FF85951DC51DC32A9C9A4C9547BBF /* CardGroupSliding.swift */,
+				89BD6DB32050E38EB8B191877F20ABE1 /* CardHighlight.swift */,
+				E86E7780655BA438AD09E68D4AAFD055 /* CardPlayer.swift */,
+				E312387CA35FCA2317B86758DA1CA775 /* DetailViewController.swift */,
+				06FF7B27521D70074DAEFC46A4BA7784 /* LayoutHelper.swift */,
+				63B97389DD6648227F303314C15A21B2 /* Support Files */,
+			);
+			name = Cards;
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		8B0C7A916C42F4C463174346D17FFA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EE8F908F1678D7E331DF819BAA6BCEE /* Cards.framework */,
+				8A841B8F020512BCD7D41B1B030487D8 /* Player.framework */,
+				699594C1E00C5854D2538CB247F6978D /* Pods_TestCustomCardView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FF7A42BD31A87361F0E259B81B8B7CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86C4FB8F67C5212A9CF67D598BCA1830 /* Cards */,
+				707D591EE56AB86E105F58ABD375664B /* Player */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCECE2990F0C1EFFADDF37B96A5BAC4D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				92D9EBFBFA68E657C1FF8D7F12BAA86F /* Foundation.framework */,
+				2195D6296DFDD3FD05168ABE188DE0E1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5A56E68A1938B1765777414036A2869 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C75745690E23CEBE67857F977479F1 /* Player.modulemap */,
+				8BCB4EFE06B1B76D2CA742F520C2FBA2 /* Player.xcconfig */,
+				2124697FC7E884E44A2BC600B8A6E7BD /* Player-dummy.m */,
+				049AAB317BE8C761A3502938CE19C4EA /* Player-Info.plist */,
+				304F5BA299860FF5F8C4BBE4DD176519 /* Player-prefix.pch */,
+				C80936A985B2E3EB0C157EA112A7B3A7 /* Player-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Player";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2B2D6C1DD0C2C8161E8FA66348721801 /* Frameworks */,
+				8FF7A42BD31A87361F0E259B81B8B7CF /* Pods */,
+				8B0C7A916C42F4C463174346D17FFA5B /* Products */,
+				F00A8BB750ED4C259B9775B2D3745C3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E98D860AA118BC517EA782BA1B73548D /* Pods-TestCustomCardView */ = {
+			isa = PBXGroup;
+			children = (
+				539120C331134731D8CA90DEDA72F34A /* Pods-TestCustomCardView.modulemap */,
+				6FFC0DF8D3172BDA53EFA639B4E6606E /* Pods-TestCustomCardView-acknowledgements.markdown */,
+				BE7AACA1B8C813B084B4CCD9F2734C23 /* Pods-TestCustomCardView-acknowledgements.plist */,
+				F18F66AA8B87F4DC3A9546C91244A647 /* Pods-TestCustomCardView-dummy.m */,
+				A8238D554BD174A995AF2D26A67698FE /* Pods-TestCustomCardView-frameworks.sh */,
+				D32085F83B9EF57864871323E7D9E86D /* Pods-TestCustomCardView-Info.plist */,
+				95713C6FFAAA63F3E592508B2F1DCB34 /* Pods-TestCustomCardView-umbrella.h */,
+				2DA46EBECA112672E32B6027268AB903 /* Pods-TestCustomCardView.debug.xcconfig */,
+				F45A10CB9DED8A911C8FF2213A6A566C /* Pods-TestCustomCardView.release.xcconfig */,
+			);
+			name = "Pods-TestCustomCardView";
+			path = "Target Support Files/Pods-TestCustomCardView";
+			sourceTree = "<group>";
+		};
+		F00A8BB750ED4C259B9775B2D3745C3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E98D860AA118BC517EA782BA1B73548D /* Pods-TestCustomCardView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D97F46997D941B6599C4637110CA98D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4926F1604200AFD0B54973197F23ABC /* Pods-TestCustomCardView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB669E7ABBC43CA17874C9997B7831F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3E7FBBC59C89D5D7245B37E13C0BD3 /* Player-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B44E99D4D3DC90D6202E1A4B6490F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4742C9466A437CC4D32BF043B0C93BD5 /* Cards-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3923DC7A4B6CE5EDEC78EA08D4D86D95 /* Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4713A0788357DBE97750458CBBECFB /* Build configuration list for PBXNativeTarget "Player" */;
+			buildPhases = (
+				DB669E7ABBC43CA17874C9997B7831F7 /* Headers */,
+				4425E005BFF3F6A40F953E12E5CDD755 /* Sources */,
+				F6DE3F1410323DE5484CD218DFBF96AA /* Frameworks */,
+				D1B79A11CA967951E0921541D575D772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Player;
+			productName = Player;
+			productReference = 8A841B8F020512BCD7D41B1B030487D8 /* Player.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CABD44290567B7416F6FC834D27D94C /* Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27E44D55108B5A1E60034B84D5623FF /* Build configuration list for PBXNativeTarget "Cards" */;
+			buildPhases = (
+				E8B44E99D4D3DC90D6202E1A4B6490F1 /* Headers */,
+				7504ADD4C53D47E9A7BECF090B696BE0 /* Sources */,
+				36C17A8234ADEE868769C9067B85CEB8 /* Frameworks */,
+				FEFD8A092B480E28A0892DD9BAFE7868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34FD823DAF52AAB8D94D35B6CC20EE6 /* PBXTargetDependency */,
+			);
+			name = Cards;
+			productName = Cards;
+			productReference = 9EE8F908F1678D7E331DF819BAA6BCEE /* Cards.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99F226E3A617B3D9EDC00537BD76C18A /* Pods-TestCustomCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2246B6473B330CF52D58F87F415AF41A /* Build configuration list for PBXNativeTarget "Pods-TestCustomCardView" */;
+			buildPhases = (
+				D97F46997D941B6599C4637110CA98D2 /* Headers */,
+				D96120FC1E5A1ED46BBD6B3A628F13BC /* Sources */,
+				A39E7F7AC08C9E2543C53AD0BD63BA64 /* Frameworks */,
+				7B39C8CF446E0F53D427A6993833678C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8866A7E1DC6C75719D77C145E5B8F103 /* PBXTargetDependency */,
+				165C870778BD3CB7D17FE5242B6E2BAB /* PBXTargetDependency */,
+			);
+			name = "Pods-TestCustomCardView";
+			productName = "Pods-TestCustomCardView";
+			productReference = 699594C1E00C5854D2538CB247F6978D /* Pods_TestCustomCardView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8B0C7A916C42F4C463174346D17FFA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CABD44290567B7416F6FC834D27D94C /* Cards */,
+				3923DC7A4B6CE5EDEC78EA08D4D86D95 /* Player */,
+				99F226E3A617B3D9EDC00537BD76C18A /* Pods-TestCustomCardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B39C8CF446E0F53D427A6993833678C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B79A11CA967951E0921541D575D772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFD8A092B480E28A0892DD9BAFE7868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4425E005BFF3F6A40F953E12E5CDD755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2EB16B1068D762691F3C1CFEEB404E /* Player-dummy.m in Sources */,
+				29AFFD8D80D2915FB2FCE034BDBC4017 /* Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7504ADD4C53D47E9A7BECF090B696BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D190F997FAFD860FBF6A93D7D54472 /* Animator.swift in Sources */,
+				8473235FA563CF420AC22DFBFF994B09 /* Card.swift in Sources */,
+				D6FD3793CB1BFD2CF8367F07F6D9DD7E /* CardArticle.swift in Sources */,
+				CE474AC61618E6D995525AC4F8020F97 /* CardGroup.swift in Sources */,
+				CBA8CAD8278111DEEF0F79E27FEBD0E5 /* CardGroupSliding.swift in Sources */,
+				DB9EBEEB26879E6571326D55278B4323 /* CardHighlight.swift in Sources */,
+				AB8D2FFC86BBCB950A02C865F753462E /* CardPlayer.swift in Sources */,
+				D7FED3C440C4BEFAF494615437508378 /* Cards-dummy.m in Sources */,
+				44E5D28B66A532FBA2FA1B513ACA253D /* DetailViewController.swift in Sources */,
+				BE3B6C7BA9EF689AE1CA401D7393C8E4 /* LayoutHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96120FC1E5A1ED46BBD6B3A628F13BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955090DAF9D1D480786BB44C24D972A9 /* Pods-TestCustomCardView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		165C870778BD3CB7D17FE5242B6E2BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Player;
+			target = 3923DC7A4B6CE5EDEC78EA08D4D86D95 /* Player */;
+			targetProxy = 172749650CD73556FF72442A3475ADE2 /* PBXContainerItemProxy */;
+		};
+		8866A7E1DC6C75719D77C145E5B8F103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cards;
+			target = 7CABD44290567B7416F6FC834D27D94C /* Cards */;
+			targetProxy = 4481E3BB3EFE7FC542F9CF42ECE87C8D /* PBXContainerItemProxy */;
+		};
+		A34FD823DAF52AAB8D94D35B6CC20EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Player;
+			target = 3923DC7A4B6CE5EDEC78EA08D4D86D95 /* Player */;
+			targetProxy = 3125F16366527EE9C4CE2623C06B0C3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0181B7280E90614F03147F77861B3ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA46EBECA112672E32B6027268AB903 /* Pods-TestCustomCardView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCustomCardView/Pods-TestCustomCardView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCustomCardView/Pods-TestCustomCardView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DBB08643360EC3EA840CEE48CD00292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 533363A2F6D1A76102E775FA8D3BB684 /* Cards.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cards/Cards-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cards/Cards-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cards/Cards.modulemap";
+				PRODUCT_MODULE_NAME = Cards;
+				PRODUCT_NAME = Cards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49C05EC7D698F42DABDEC528E1642EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45A10CB9DED8A911C8FF2213A6A566C /* Pods-TestCustomCardView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestCustomCardView/Pods-TestCustomCardView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestCustomCardView/Pods-TestCustomCardView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FC92F53E2385A525C148DE9F080978A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 533363A2F6D1A76102E775FA8D3BB684 /* Cards.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cards/Cards-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cards/Cards-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cards/Cards.modulemap";
+				PRODUCT_MODULE_NAME = Cards;
+				PRODUCT_NAME = Cards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A5C01F4C8C7BD254AA8AE51FD3AAF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCB4EFE06B1B76D2CA742F520C2FBA2 /* Player.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Player/Player-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Player/Player-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Player/Player.modulemap";
+				PRODUCT_MODULE_NAME = Player;
+				PRODUCT_NAME = Player;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3F6481CBDC9C600F9A97C78BB1CC48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCB4EFE06B1B76D2CA742F520C2FBA2 /* Player.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Player/Player-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Player/Player-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Player/Player.modulemap";
+				PRODUCT_MODULE_NAME = Player;
+				PRODUCT_NAME = Player;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2246B6473B330CF52D58F87F415AF41A /* Build configuration list for PBXNativeTarget "Pods-TestCustomCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0181B7280E90614F03147F77861B3ACA /* Debug */,
+				49C05EC7D698F42DABDEC528E1642EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27E44D55108B5A1E60034B84D5623FF /* Build configuration list for PBXNativeTarget "Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC92F53E2385A525C148DE9F080978A /* Debug */,
+				2DBB08643360EC3EA840CEE48CD00292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4713A0788357DBE97750458CBBECFB /* Build configuration list for PBXNativeTarget "Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5C01F4C8C7BD254AA8AE51FD3AAF90 /* Debug */,
+				F3F6481CBDC9C600F9A97C78BB1CC48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
